@@ -2,11 +2,10 @@ h2 {
     margin-bottom: 2rem;
 }
 
-h3,h4,h5 {
+h3, h4, h5 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
-
 
 .icon {
     margin-right: .5rem;
@@ -16,19 +15,18 @@ h3,h4,h5 {
 
 @media screen and (min-width: 700px) {
 
- .mobile-only {
-     display: none;
- }
+    .mobile-only {
+        display: none;
+    }
 
 }
-
 
 /*MOBILE ONLY CODE*/
 @media screen and (max-width: 700px) {
 
- .desktop-only {
-     display: none;
- }
+    .desktop-only {
+        display: none;
+    }
 }
 
 img {
@@ -37,3 +35,8 @@ img {
     margin: 0 auto;
 }
 
+.video {
+    width: 100%;
+
+    height: auto;
+}
